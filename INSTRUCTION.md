@@ -39,7 +39,7 @@ Wait until the Ingress Controller pod is in `Running` state.
 Apply the Ingress resource:
 
 ```powershell
-kubectl apply -f .\.infrastructure\ingress\ingress.yml
+kubectl apply -f .\infrastructure\ingress\ingress.yml
 ```
 
 Verify the Ingress:
@@ -65,3 +65,4 @@ Open the following address in a browser:
 http://localhost/
 
 The ToDo application should be displayed without a `404` error.
+
